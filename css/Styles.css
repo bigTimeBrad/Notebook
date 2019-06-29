@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#WRAPPER {
+    width: 800px;
+    margin: 20 auto;
+}
+
+h1,h3 {
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+    margin-left: 15px;
+}
+.grey_background {
+    background-color: #D0CECE;
+}
+
+.column {
+     float: left;
+     
+}
+#body {
+    clear: both;
+}
+
+#h_name{
+    text-align: left;
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h_info {
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
