@@ -86,11 +86,13 @@ ul, li {
 }
 #quote {
     text-align: center;
+    font-style: italic
 }
 
 #author {
     margin-top: 20px;
     text-align: center;
+    font-size: 90%
 }
 .project-description-space {
     margin-bottom:10px;
