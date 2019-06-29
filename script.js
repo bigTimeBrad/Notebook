@@ -9,18 +9,22 @@ function callAPI(endpointURI) {
     // open a new connection, using the GET request on the URL endpoint
     request.open('GET', endpointURI, true)
 
-    request.onload = function () {
-
+    request.onload = function () 
+    {
         //begin accessing the JSON here
         var data = JSON.parse(this.response)
 
-        if(request.status >= 200 && request.status < 400){
+        if(request.status >= 200 && request.status < 400)
+        {
            
-            for(var i = 0; i < data.results.length; i++){
+            for(var i = 0; i < data.results.length; i++)
+            {
                 console.log(data.results[i].name)
             }
             
-        } else {
+        } 
+        else 
+        {
             console.log('error')
         }
     }
@@ -30,9 +34,8 @@ function callAPI(endpointURI) {
 
 }
 
-var endpoint = 'https://swapi.co/api/people/'
-
-callAPI(endpoint);
+// The api object is coming from my keys.js file in the .gitignore
+callAPI(api.endpoint);
 
 
 
