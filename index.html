@@ -5,7 +5,11 @@
 
 <body>
     <div id="WRAPPER"> 
-        <div  id="header"  >
+        
+        <div  id="header">
+            <!-- ************************************************************************************************* -->
+            <!-- ********                                  Header                                          ******* -->
+            <!-- ************************************************************************************************* -->
             <div id="h_name" class="column">
                 <h1> BRAD NISSEN </h1>
             </div>
@@ -21,16 +25,75 @@
         </div>
 
         <div id="body">
+
+            <!-- ************************************************************************************************* -->
+            <!-- ********                              Technical Skills                                    ******* -->
+            <!-- ************************************************************************************************* -->
             <div id="b_techskills">
                 <h3 class="grey_background">Technical Skills</h3> 
-                <p>
-                    <strong><em>Programming Languages:</em></strong> Java, JavaScript, PHP, SQL, HTML/CSS <strong><em>Familiar with:</em></strong> C#, Python <br />
-                    <strong><em>DevOps: </em></strong> Microsoft Azure, Google Cloud Platform, serverless, agile development <br />
-                    <strong><em>Tools/Technologies: </em></strong> Git/version control, end-to-end testing, RESTful web services, Android development <br />
-                    <strong><em>Coursework/Focus Areas: </em></strong> Web development, mobile development, cloud computing (SaaS), algorithms and data
-                    structures, computer science fundamentals, Software Development Life Cycle, Intro to Software Engineering
+                <p >
+                    <ul style="list-style-type:square;" id="techskills">
+                        <li><strong><em>Programming Languages:</em></strong> Java, JavaScript, PHP, SQL, HTML/CSS <strong><em>Familiar with:</em></strong> C#, Python</li>
+                        <li><strong><em>DevOps: </em></strong> Microsoft Azure, Google Cloud Platform, serverless, agile development</li>
+                        <li><strong><em>Tools/Technologies: </em></strong> Git/version control, end-to-end testing, RESTful web services, Android development</li>
+                        <li><strong><em>Coursework/Focus Areas: </em></strong> Web development, mobile development, cloud computing (SaaS), algorithms and data
+                             structures, computer science fundamentals, Software Development Life Cycle, Intro to Software Engineering </li>
+                    </ul>
                 </p>   
             </div>
+
+            <!-- ************************************************************************************************* -->
+            <!-- ********                              Software Projects                                   ******* -->
+            <!-- ************************************************************************************************* -->
+            <div id="b_projects">
+                <h3 class="grey_background">Software Projects</h3>
+
+                <!-- **************************************************************************** -->
+                <!-- *****                         Job 1                                    ***** -->
+                <!-- **************************************************************************** -->
+                <div class="job">
+    
+                    <div class="project-title">
+                        <p class="left" > <strong>Cloud Practicum</strong>  </p>
+                        <p class="right"> <em>January 2019 - March 2019</em></p>
+                    </div>
+
+                    <div class="project-description">
+                        <p>
+                            Divided into teams to design and build an admin portal (web application), which is hosted
+                             on Azure. On the backend development team, we are creating a REST-style CRUD API, using 
+                             C# on the .NET platform with Azure’s serverless functions. I am learning the importance 
+                             about cloud security, API design, cross-communications between teams, and gaining a great 
+                             understanding of serverless computing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- **************************************************************************** -->
+                <!-- *****                         Job 2                                    ***** -->
+                <!-- **************************************************************************** -->
+                <div class="job">
+
+                        <div class="project-title">
+                            <p class="left" > <strong>Mbbile Practicum</strong>  </p>
+                            <p class="right"> <em>September 2018 - December 2018</em></p>
+                        </div>
+    
+                        <div class="project-description">
+                            <p>
+                                Real-time stock market trading application to follow market trends in intervals of 
+                                five minutes. As a team of four, we developed the app in Java to the customer needs, 
+                                and specifications. Gained experience creating timer triggers in a serverless function 
+                                to make HTTP request using Node.js. This function solved the problem by synchronizing 
+                                updated stocks to the users.
+                            </p>
+                        </div>
+                    </div>
+
+
+            </div>
+
+            
         </div>
     </div>
 </body>
