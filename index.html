@@ -2,11 +2,15 @@
         <link rel="stylesheet" type="text/css" href="css/Styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
         <script src="api.js"></script>
+        <script src="quote.js"></script>
         <script src="script.js"></script>
 </head>
 
 <body>
-    <div id="WRAPPER"> 
+    <div class="download-container">
+        <img id="download" src="img/download.png" width="150px">
+    </div>
+    <div class="WRAPPER"> 
         
         <div  id="header">
             <!-- ************************************************************************************************* -->
@@ -61,7 +65,7 @@
                     </div>
 
                     <div class="project-description">
-                        <p>
+                        <p class="project-description-space">
                             Divided into teams to design and build an admin portal (web application), which is hosted
                              on Azure. On the backend development team, we are creating a REST-style CRUD API, using 
                              C# on the .NET platform with Azure’s serverless functions. I am learning the importance 
@@ -77,12 +81,12 @@
                 <div class="job">
 
                         <div class="project-title">
-                            <p class="left" > <strong>Mbbile Practicum</strong>  </p>
+                            <p class="left" > <strong>Mobile Practicum</strong>  </p>
                             <p class="right"> <em>September 2018 - December 2018</em></p>
                         </div>
     
                         <div class="project-description">
-                            <p>
+                            <p class="project-description-space">
                                 Real-time stock market trading application to follow market trends in intervals of 
                                 five minutes. As a team of four, we developed the app in Java to the customer needs, 
                                 and specifications. Gained experience creating timer triggers in a serverless function 
@@ -97,6 +101,11 @@
 
             
         </div>
+    </div>  <!-- End of Wrapper -->
+
+    <div class="quote-class">
+        <p id="quote"></p>
+        <p id="author"></p>
     </div>
 </body>
 

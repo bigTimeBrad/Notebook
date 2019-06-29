@@ -16,11 +16,13 @@ function callAPI(endpointURI) {
 
         if(request.status >= 200 && request.status < 400)
         {
-           
-            for(var i = 0; i < data.results.length; i++)
-            {
-                console.log(data.results[i].name)
-            }
+            var quote = data.contents.quotes[0].quote
+            var author = data.contents.quotes[0].author
+
+            document.getElementById("quote").innerHTML = "\"" + quote + "\""
+            document.getElementById("author").innerHTML = "-" + author
+            
+            
             
         } 
         else 
@@ -35,7 +37,7 @@ function callAPI(endpointURI) {
 }
 
 // then, call the function with the endpoint
-callAPI(api.endpoint);
+callAPI(api.quote);
 
 
 

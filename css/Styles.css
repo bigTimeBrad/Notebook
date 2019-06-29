@@ -6,7 +6,7 @@ body {
     background-color: rgb(155, 155, 155)  
 }
 
-#WRAPPER {
+.WRAPPER {
     width: 800px;
     margin: 10 auto;
     background-color: #ffffff;
@@ -76,4 +76,39 @@ ul, li {
 
 .project-description {
     margin: 0 7 0 7;
+}
+
+.quote-class{
+    margin: 40 auto;
+    width: 700px;
+    color: #444;
+    
+}
+#quote {
+    text-align: center;
+}
+
+#author {
+    margin-top: 20px;
+    text-align: center;
+}
+.project-description-space {
+    margin-bottom:10px;
+}
+
+#download {
+    border-radius: 30px;
+    border: 2px solid;
+    /* box-shadow: 3px 7px #888888; */
+}
+
+.download-container {
+    margin: 20 auto;
+    width:fit-content;
+}
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+
 }
