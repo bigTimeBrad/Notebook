@@ -13,6 +13,7 @@ body {
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px #888888;
+    border-radius: 4px;
 }
 
 h1,h3 {
@@ -115,4 +116,12 @@ img:hover {
 
 a:link, a:visited, a:hover {
     color: black;
+}
+
+.school {
+    float:left;
+}
+
+.state {
+    text-align: right;
 }
